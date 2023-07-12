@@ -25,7 +25,7 @@ Provide data-driven answers that can be used for their 2020 company strategy, wh
   - Link to visualizations: [Rockbuster Visuals](https://public.tableau.com/app/profile/erin.swift/viz/RockbusterCustomerCountry/CustomersbyCountry)
 
 ## Script Summary
-* [Customer Lifetime Value](CustLifetimeVale.sql):  List of all customers, ranked by their lifetime value in descending order
+* [Customer Lifetime Value](CustLifetimeValue.sql):  List of all customers, ranked by their lifetime value in descending order
 * [Number of Customers by Country](CustperCountry.sql): List of the number of customers per country, ranked in descending
 * [Top Five Customers per Country using Subquery and CTE](TopFivePerCountrySQandCTE.sql): List of total customers and customers in the top 5 per country using subqueries and CTE
 * [Top Five Customers per Country using CTE](TopFivePerCountryCTE.sql): List of total customers and customers in the top 5 per country using CTE
