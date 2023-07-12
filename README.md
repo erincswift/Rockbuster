@@ -1,2 +1,31 @@
-# Rockbuster
-SQL for Rockbuster fictional database
+# SQL Data Analysis Project: Rockbuster
+
+## Background:
+Rockbuster Stealth is a fictional movie rental company that used to have stores worldwide.  Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.  
+## Goal:
+Provide data-driven answers that can be used for their 2020 company strategy, which includes the launch of the new online video service.
+## Key Business Questions:
+* Which movies contributed the most/least to revenue gain?
+* What was the average rental duration for all videos?
+* Which countries are Rockbuster customers based in?
+* Where are customers with a high lifetime value based?
+* Do sales figures vary between geographic regions?
+
+## Process:
+* Create data dictionary for Rockbuster ERD
+* Clean data
+  - Remove duplicate or irrelevant observations
+  - Fix structural errors
+  - Filter unwanted outliers
+  - Handle missing data
+  - Validate data
+* Determine summary and descriptive statistics for key variables
+* Use subqueries and common table expressions to answer business questions
+* Create visualizations in Tableau of results
+  - Link to visualizations: [Rockbuster Visuals](https://public.tableau.com/app/profile/erin.swift/viz/RockbusterCustomerCountry/CustomersbyCountry)
+
+## Script Summary
+* Summary of film data set
+* Customers by country
+* Customer ranking using CTE
+* Percentage of films by rating using CTE
