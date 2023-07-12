@@ -1,11 +1,10 @@
-Query to determine the percentage of films for each rating category (G, PG, PG-13, etc.)
+/*Query to determine the percentage of films for each rating category (G, PG, PG-13, etc.) using CTE*/
 
-```
 --CTE to return the number of movies per rating category
 with base as 
 (
   Select rating,
-        count(film_id) as film_count
+	count(film_id) as film_count
   From film
   Group by rating
   Order by film_count desc
@@ -22,4 +21,4 @@ total as
 Select base.*, total.total_film,
         concat(cast(round((base.film_count/total.total_film*100),2)as varchar),'%') as percentage
 From base, total
-```
+
